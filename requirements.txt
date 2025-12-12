@@ -14,3 +14,4 @@ websockets
 psycopg2-binary
 pytest
 httpx
+python-dotenv
