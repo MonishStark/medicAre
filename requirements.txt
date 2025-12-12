@@ -3,7 +3,7 @@ uvicorn
 sqlmodel
 pydantic
 python-multipart
-python-jose[cryptography]
+PyJWT
 passlib[bcrypt]
 google-genai
 google-auth
