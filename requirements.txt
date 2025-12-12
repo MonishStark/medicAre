@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlmodel
+pydantic
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+google-genai
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+requests
+websockets
+psycopg2-binary
+pytest
+httpx

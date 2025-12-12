@@ -1,0 +1,8 @@
+{
+  "name": "PhysioVibe",
+  "description": "AI-powered physical therapy assistant analyzing biomechanics and form in real-time.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
