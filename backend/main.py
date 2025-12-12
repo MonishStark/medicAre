@@ -101,7 +101,8 @@ class AnalysisRequest(BaseModel):
     mime_type: str = "video/webm"
 
 # --- SETUP ---
-engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
+connect_args = {"check_same_thread": False} if "sqlite" in DATABASE_URL else {}
+engine = create_engine(DATABASE_URL, connect_args=connect_args)
 # Create tables on startup
 SQLModel.metadata.create_all(engine)
 
